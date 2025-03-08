@@ -25,7 +25,7 @@ const InstagramMain = () => {
     }
 
     try {
-      const url = `${import.meta.env.BACKEND_URL}/auth/login`;
+      const url = `${import.meta.env.BACKEND_URL}/api/auth/login`;
 
       const response = await fetch(url, {
         method: "POST",

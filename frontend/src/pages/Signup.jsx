@@ -26,7 +26,7 @@ const Signup = () => {
     }
 
     try {
-      const url = `${import.meta.env.BACKEND_URL}/auth/signup`;
+      const url = `${import.meta.env.VITE_BACKEND_URL}/auth/signup`;
 
       const response = await fetch(url, {
         method: "POST",

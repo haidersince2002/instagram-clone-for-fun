@@ -37,10 +37,6 @@ const InstagramMain = () => {
 
       const result = await response.json();
       console.log(result);
-      const { success, message, token, error } = result;
-      if (success) {
-        localStorage.setItem("token", token);
-      }
 
       if (response.ok) {
         setInputInfo({

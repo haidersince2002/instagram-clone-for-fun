@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 const InstagramMain = () => {
   const [showPassword, setShowPassword] = useState(false);
